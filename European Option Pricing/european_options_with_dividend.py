@@ -2,13 +2,6 @@
 """
 Created on Mon Mar 23 18:53:19 2020
 
-@author: haria
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 23 16:45:52 2020
-
 @author: harishangaran
 
 PYTHON OPTION PRICE FOR DIVIDEND PAYING STOCKS
@@ -30,7 +23,7 @@ Just call the class and input the variables to get the option prices:
                                        ,sigma,'call or put').getOptionPrice()
     
     eg: getOptionPrice('MSFT',150,0.5,0.05,0.2,0.25, option = 'call').getOptionPrice()
-    
+    eg: getOptionPrice('MSFT',150,0.5,0.05,0.2,0.25, option = 'put').getOptionPrice()
     
 
 K: strike price
