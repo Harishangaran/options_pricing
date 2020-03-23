@@ -1,6 +1,8 @@
 # options_pricing
 Python Option Pricing Script
 
+--------------------------------------------------------------Intro---------------------------------------------------------------------
+
 Hi Folks,
 
 I'm Hari,
@@ -15,6 +17,19 @@ The spot price is taken from the yahoo finance, therefore, the option price will
 
 Note: This model is for non-dividend paying stocks.
 
-The model with dividend will soon be made available.
+
+-------------------------------------------------------------Libraries------------------------------------------------------------------
+
+yfinance
+numpy
+scipy
+
+---------------------------------------------------------------Files--------------------------------------------------------------------
+
+european_options.py - European options price calculations for non-dividend paying
+european_options_with_divend - European options price for dividend paying
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 
 Enjoy!
