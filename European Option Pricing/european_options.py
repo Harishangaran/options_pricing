@@ -21,11 +21,13 @@ Just call the class and put or call method to get the option prices:
                                        time to maturity in years,
                                        interest rate,sigma).callOption()
     
-    eg: getOptionPrice('MSFT',150,0.5,0.05,0.25).callOption
+    eg: getOptionPrice('MSFT',150,0.5,0.05,0.25).callOption()
     
     put option price = getOptionPrice('equity',strickeprice,
                                        time to maturity in years,
                                        interest rate,sigma).putOption()
+    
+    eg: getOptionPrice('AAPL',180,0.5,0.05,0.25).putOption()
 
 K: strike price
 T: time to maturity in years
@@ -62,5 +64,5 @@ class getOptionPrice:
         return self.put
         
     
-current_Put_Option_Price = getOptionPrice('MSFT',150,0.5,0.025,0.25).putOption()
+current_Put_Option_Price = getOptionPrice('MSFT',100,0.5,0.025,0.25).putOption()
 print('The current put option is {}'.format(current_Put_Option_Price))
