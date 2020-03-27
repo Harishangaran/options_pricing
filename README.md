@@ -15,8 +15,6 @@ All you have to do is call in the class with your desired equity symbol, strike 
 
 The spot price is taken from the yahoo finance, therefore, the option price will dynamically change everytime you call in the method.
 
-Note: This model is for non-dividend paying stocks.
-
 
 -------------------------------------------------------------Libraries------------------------------------------------------------------
 
@@ -26,8 +24,8 @@ scipy
 
 ---------------------------------------------------------------Files--------------------------------------------------------------------
 
-european_options.py - European options price calculations for non-dividend paying
-european_options_with_divend - European options price for dividend paying
+european_options.py - European options price calculations for non-dividend paying stocks
+european_options_with_divend - European options price for dividend paying stocks
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
