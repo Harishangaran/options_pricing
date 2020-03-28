@@ -25,7 +25,8 @@ scipy
 ---------------------------------------------------------------Files--------------------------------------------------------------------
 
 european_options.py - European options price calculations for non-dividend paying stocks
-european_options_with_divend - European options price for dividend paying stocks
+
+european_options_with_divend.py - European options price for dividend paying stocks
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
